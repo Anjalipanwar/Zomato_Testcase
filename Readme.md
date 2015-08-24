@@ -1,4 +1,4 @@
-Test Cases Implementation :
+Test Cases Implementation
 
 Test Case 1 : 
 
@@ -16,6 +16,7 @@ Log Info : TestCase_01
 [error] Element css=li.item.selected not found
 [info] Test case failed
 [info] Test suite completed: 1 played, 1 failed
+
 
 
 Test Case 2 :
@@ -60,5 +61,24 @@ Log Info : TestCase_03
 
 Test Case 4 :
 
-Validated 
-Step 1 : Selected  
+Validated clicks on links.
+Step 1 : Selected the link 'A Hole Lotta Love Cafe'.
+Step 2 : Selected the link 'American'.
+Step 3 : Selected the link 'Burger King'.
+
+Log Info : TestCase_04
+
+[info] Playing test case TestCase_04
+[info] Executing: |open | / | |
+[info] Executing: |clickAndWait | //a[2]/div/div/div[2]/div | |
+[info] Executing: |clickAndWait | link=A Hole Lotta Love Cafe | |
+[info] Executing: |clickAndWait | link=American | |
+[info] Executing: |clickAndWait | link=Burger King | |
+[info] Test case passed
+[info] Test suite completed: 1 played, all passed!
+
+
+
+_END_
+
+
