@@ -1,0 +1,48 @@
+Log Info
+
+Log Info : TestCase_01
+
+[info] Playing test case TestCase_01
+[info] Executing: |open | / | |
+[info] Executing: |click | css=div.l-pre-1 | |
+[info] Executing: |click | css=li.item.selected | |
+[error] Element css=li.item.selected not found
+[info] Test case failed
+[info] Test suite completed: 1 played, 1 failed
+
+Log Info : TestCase_02
+
+[info] Playing test case TestCase_02
+[info] Executing: |open | /bangalore/koramangala-restaurants | |
+[info] Executing: |clickAndWait | link=Tim Tai | |
+[info] Executing: |click | css=a.level-5 | |
+[info] Executing: |clickAndWait | //div[@id='mainframe']/div[2]/div/div/div[15]/a/div/div[2] | |
+[info] Test case passed
+[info] Test suite completed: 1 played, all passed!
+[info] Playing test case Untitled
+[info] Executing: |open | /bangalore/koramangala-restaurants | |
+[info] Executing: |clickAndWait | link=Tim Tai | |
+[info] Executing: |click | css=a.level-5 | |
+[info] Executing: |clickAndWait | //div[@id='mainframe']/div[2]/div/div/div[15]/a/div/div[2] | |
+[info] Test case passed
+[info] Test suite completed: 1 played, all passed!
+
+Log Info : TestCase_03
+
+[info] Playing test case TestCase03
+[info] Executing: |open | /bangalore/restaurants/empire-restaurant | |
+[info] Executing: |click | css=div.search-filter-icon | |
+[info] Executing: |clickAndWait | link=Popularity - high to low | |
+[info] Test case passed
+[info] Test suite completed: 1 played, all passed!
+
+Log Info : TestCase_04
+
+[info] Playing test case TestCase_04
+[info] Executing: |open | / | |
+[info] Executing: |clickAndWait | //a[2]/div/div/div[2]/div | |
+[info] Executing: |clickAndWait | link=A Hole Lotta Love Cafe | |
+[info] Executing: |clickAndWait | link=American | |
+[info] Executing: |clickAndWait | link=Burger King | |
+[info] Test case passed
+[info] Test suite completed: 1 played, all passed!
